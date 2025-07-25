@@ -1,5 +1,5 @@
 //
-//  SecondView.swift
+//  FourthView.swift
 //  Navigation
 //
 //  Created by Scholar on 7/24/25.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct FourthView: View {
     var body: some View {
         NavigationStack {
             VStack{
-                Text("This is the second view: about me")
+                Text("This is the fourth view: help")
                 NavigationLink(destination: ContentView()) {
                     Text("click me to go back to the table of contents!")
                 }
@@ -24,5 +24,5 @@ struct SecondView: View {
 }
 
 #Preview {
-    SecondView()
+    FourthView()
 }
